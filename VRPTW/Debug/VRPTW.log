@@ -1,0 +1,27 @@
+﻿  main.cpp
+  Node.cpp
+  problem.cpp
+c:\users\miaoayao\desktop\vrptw\vrptw\problem.cpp(62): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+c:\users\miaoayao\desktop\vrptw\vrptw\problem.cpp(62): warning C4244: “初始化”: 从“double”转换到“const int”，可能丢失数据
+c:\users\miaoayao\desktop\vrptw\vrptw\problem.cpp(63): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+c:\users\miaoayao\desktop\vrptw\vrptw\problem.cpp(63): warning C4244: “初始化”: 从“double”转换到“const int”，可能丢失数据
+c:\users\miaoayao\desktop\vrptw\vrptw\problem.cpp(104): warning C4018: “<”: 有符号/无符号不匹配
+c:\users\miaoayao\desktop\vrptw\vrptw\problem.cpp(106): warning C4244: “参数”: 从“double”转换到“const unsigned int”，可能丢失数据
+c:\users\miaoayao\desktop\vrptw\vrptw\problem.cpp(205): warning C4244: “参数”: 从“double”转换到“const unsigned int”，可能丢失数据
+c:\users\miaoayao\desktop\vrptw\vrptw\problem.cpp(207): warning C4244: “参数”: 从“double”转换到“const unsigned int”，可能丢失数据
+c:\users\miaoayao\desktop\vrptw\vrptw\problem.cpp(237): warning C4018: “<”: 有符号/无符号不匹配
+c:\users\miaoayao\desktop\vrptw\vrptw\problem.cpp(248): warning C4018: “<”: 有符号/无符号不匹配
+c:\users\miaoayao\desktop\vrptw\vrptw\problem.cpp(259): warning C4244: “初始化”: 从“_Ty”转换到“int”，可能丢失数据
+          with
+          [
+              _Ty=double
+          ]
+c:\users\miaoayao\desktop\vrptw\vrptw\problem.cpp(260): warning C4244: “初始化”: 从“_Ty”转换到“int”，可能丢失数据
+          with
+          [
+              _Ty=double
+          ]
+c:\users\miaoayao\desktop\vrptw\vrptw\problem.cpp(275): warning C4018: “<”: 有符号/无符号不匹配
+  Route.cpp
+  正在生成代码...
+  VRPTW.vcxproj -> C:\Users\MiaoAYao\Desktop\VRPTW\Debug\VRPTW.exe

@@ -1,14 +1,16 @@
 #include"Route.h"
 
 
-Route::Route(Node* node)
+Route::Route(Node* node, double dt_depot, double at_depot)
 {
 	head = node;
 	tail = node;
 	size = 1;
 	demand = node->d;
-}
 
+	this->dt_depot = dt_depot;
+	this->at_depot = at_depot;
+}
 
 void Route::reverseRoute()
 {
@@ -33,12 +35,12 @@ void Route::reverseRoute()
 void Route::print()
 {
 	Node* tmp = head;
+	cout << "1 -> ";
 	while (tmp != NULL)
 	{
 		cout << tmp->num;
 		tmp = tmp->next;
-		if (tmp != NULL)
-			cout << " -> ";
+		cout << " -> ";
 	}
-	cout << endl;
+	cout << "1" << endl;
 }
